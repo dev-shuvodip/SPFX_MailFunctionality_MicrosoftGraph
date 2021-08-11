@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spf-xmail-send-poc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfXmailSendPoc/SpfXmailSendPocWebPart.js",
+          "manifest": "./src/webparts/spfXmailSendPoc/SpfXmailSendPocWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfXmailSendPocWebPartStrings": "lib/webparts/spfXmailSendPoc/loc/{locale}.js"
+  }
+}
